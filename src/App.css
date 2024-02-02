@@ -1,0 +1,460 @@
+/* link rounting */
+.dropdown-item a{
+  text-decoration: none !important;
+  color: black !important;
+}
+.nav-link a{
+  text-decoration: none !important;
+  color: white !important;
+}
+/* media query */
+@media screen and (max-width:552px){
+  .s_txt{
+    font-size: 50px !important;
+  }
+  .new_text{
+    font-size: 30px !important;
+  }
+  .co_slider p{
+    font-size: 70px !important;
+  }
+  .logoimg{
+    width: 120px !important;
+  }
+  .menu_m
+  {
+    margin: 5px !important;
+  }
+  .menu_txt{
+    margin: 0px 25px !important;
+  }
+}
+@media screen and (max-width:768px){
+  .work_rigth{
+    margin: 0px !important;
+  }
+}
+@media screen and (max-width:991px){
+  .navbar-collapse{
+    position: absolute;
+    top:100%;
+    left:0%;
+    right: 0%;
+    width:100%;
+    background-color: black;
+    z-index: 10;
+    text-align: center !important;
+  }
+}
+@media screen and (max-width:1024px){
+  .about_txt{
+    font-size: 30px !important;
+  }
+  .work_t{
+    font-size: 40px !important;
+  }
+  .visi_txt{
+    font-size: 40px !important;
+  }
+}
+/* ----------- */
+.spacer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* =========== START TOP HEADER =========== */
+/* start top header */
+.logoimg{
+  height: 50px;
+  width: 150px;
+}
+/* .menus{
+  margin-left: 200px;
+} */
+/* menu */
+
+.dropdown-menu{
+  background-color: #d68240 !important;
+}
+.nav-link:focus{
+  color: white !important;
+}
+.dropdown > a{
+  color: white;
+  margin-left: 20px;
+}
+.dropdown > a:hover{
+  color: #d68240  !important;
+}
+.navbar-nav>a{
+  margin-left: 20px;
+  color: white;
+}
+.navbar-nav > a:hover{
+  color: #d68240 !important;
+}
+.nav-link > a:hover{
+  color: #d68240 !important;
+}
+.navbar-toggler-icon{
+  background-color: #e4e4e4;
+}
+/* .dropdown-item{
+  color: white !important;
+} */
+.t_btn{
+  background-color: #d68240;
+  border: none;
+  padding: 18px 50px;
+  margin-left: 90px;
+  color: white;
+}
+
+/* Slider */
+.slider_txt{
+  margin-bottom: 200px;
+}
+.s_img{
+  height: 750px;
+}
+.layer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(1, 10, 20, 0.5);
+}
+.s_txt{
+  font-size: 80px;
+  font-family: 'Lucida Handwriting';
+}
+.s_btn{
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+}
+.s_btn:hover{
+  border: 3px solid #d68240;
+  transition: .3s;
+}
+.sec_btn{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+/* .carousel-indicators [data-bs-target]{
+} */
+
+
+/* ABOUT US */
+.about_txt{
+  color: #d3cfc6;
+  font-size: 40px;
+  font-family: 'Lucida Handwriting';
+}
+.about{
+  color: #d3cfc6;
+}
+.left{
+  margin: 18px;
+}
+
+/* FEATURES  */
+.features{
+  height: 90px;
+  width: 90px;
+}
+.feau_text{
+  color: #d3cfc6;
+}
+
+/* RESERVATION */
+.work_img{
+  height: 750px;
+  width: 100%;
+  opacity: .6;
+  position: absolute;
+  object-fit: cover;
+}
+.work_txt{
+  margin: 200px 50px;
+  position: relative;
+}
+.work_t{
+  font-size: 65px;
+  color: white;
+}
+.work_rigth{
+  margin: 200px 30px;
+  color: white;
+  position: relative;
+  padding: 30px;
+}
+
+/* start TESTIMONIALS  */
+.test{
+  border: 1px solid #d3cfc6;
+  color: #d3cfc6;
+}
+.t_txt{
+  font-size: 30px;
+  padding-top: 30px;
+  font-family: 'Lucida Handwriting';
+}
+.text_txt{
+  color: #d3cfc6;
+  padding: 15px 35px;
+}
+.text_img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.img_t{
+  margin: 10px 20px;
+}
+.os_t{
+  margin: 20px;
+}
+
+/* start Condown */
+.big{
+  font-size: 50px;
+  font-family: 'Lucida Handwriting' ;
+}
+
+/* start DOWNLOAD */
+.down{
+  height: 400px;
+  background-image: url('./image/down.jpeg');
+}
+.textof_d{
+  padding-top: 80px;
+}
+.work_t{
+  font-family: 'Lucida Handwriting';
+}
+.d_btn{
+  background-color: transparent;
+  border: 2px solid #d68240;
+  color: white;
+  padding: 15px 20px;
+  margin-left: 600px;
+}
+
+/* start Visitors  */
+.visi_txt{
+    color: #d3cfc6;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+}
+.trip{
+  box-shadow: 0px 0px 3px #d3cfc6;
+  margin: 10px 30px;
+  padding-bottom: 20px;
+}
+.trip_t{
+  padding: 8px 25px;
+  color: #d3cfc6;
+}
+.trip_txt{
+  font-family: 'Lucida Handwriting';
+}
+.admin_img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* start newslider */
+.new_img{
+  height: 500px;
+  position: absolute;
+}
+.new_txt{
+  position: relative;
+}
+.new_text{
+    color: #d3cfc6;
+    font-size: 50px;
+    font-family: 'Lucida Handwriting';
+}
+.all_new{
+  opacity: .7;
+}
+.new_input{
+  background-color: rgb(39, 37, 37);
+  border: none;
+  color: white;
+  padding: 20px 50px;
+}
+.new_btn{
+  background-color: #d68240;
+  color: white;
+  padding: 20px 25px;
+  margin: 8px;
+  border: none;
+}
+
+/* start footer */
+.icons{
+  color: #d3cfc6;
+}
+.all_icon{
+  justify-content: end;
+}
+.all_icon p{
+  margin: 10px 15px;
+  font-size: 20px;
+}
+.footerline{
+  border-top: 1px solid #595753;
+  margin-top: 50px;
+}
+.f_about{
+  color: #d3cfc6;
+}
+.f_txt{
+  font-family: 'Lucida Handwriting';
+}
+.f_img img{
+  height: 100px;
+  width: 120px;
+  margin-left: 10px;
+  box-shadow: 0px 0px 3px #d3cfc6;
+}
+.copyright{
+  color: #d3cfc6;
+  font-size: 18px;
+}
+.back{
+  color: #d68240;
+  text-align: right;
+}
+
+/* ============= START ABOUT PAGE  ============== */
+.ab_slider{
+  height: 500px;
+  opacity: .8;
+  background-image: url('./image/about_slider.webp');
+}
+.ab_slider p{
+  padding-top: 150px;
+}
+/* png about */
+.png_about{
+  margin: 20px;
+}
+.png_about img{
+  height: 100px;
+  width: 100px;
+}
+
+/* strat photo video */
+.photo{
+  background-image: url('./image/ab_video.webp');
+  height: 600px;
+  opacity: .6;
+  width: 100%;
+  box-sizing: border-box;
+}
+.video button{
+  background-color: #e06513;
+  height: 80px;
+  width: 80px;
+  border: none;
+  margin-top: 300px;
+  box-shadow: 0px 0px 5px #bebbb6;
+}
+.video p{
+  margin-top: 50px;
+}
+
+/* start team */
+.ready{
+  box-shadow: 0px 0px 3px #bebbb6;
+}
+.ready img{
+  height: 450px;
+  width: 500px;
+}
+.r_txt{
+  font-family: 'Lucida Handwriting';
+  text-align: center;
+}
+.ready h5{
+  text-align: center;
+}
+.ab_icon{
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.ab_icon span{
+  margin: 20px;
+}
+
+/* =========== START MENU PAGES  ============= */
+.menu_m img{
+  height: 150px;
+  width: 150px;
+}
+.menu_m{
+  display: flex;
+  box-shadow: 0px 0px 5px #868583;
+  margin: 20px;
+}
+.menu_txt{
+  margin: 5px 40px;
+  color: #d3cfc6;
+}
+.menu_txt h5{
+  color: #d3cfc6;
+  font-family: 'Lucida Handwriting';
+}
+
+/* ============= START BLOG PAGE ============ */
+/* ==============START CONTACT US ========= */
+.co_slider{
+  height: 500px;
+  opacity: .8;
+  background-image: url('./image/contact_sec.webp');
+}
+.co_slider p{
+  padding-top: 150px;
+  font-size: 100px;
+  font-family: 'Lucida Handwriting';
+}
+.all_icons{
+  color: #d3cfc6;
+}
+.con_icon{
+  height: 80px;
+  width: 80px;
+}
+.i_txt{
+  font-family: 'Lucida Handwriting';
+}
+.con_input input{
+  background-color: #121a1d;
+  border: none;
+  color: white;
+  margin: 10px 5px;
+  padding: 10px;
+}
+.text_area{
+  background-color: #121a1d;
+  border: none;
+  margin: 8px;
+}
+
+/* img transform */
+.trip_img{
+  overflow: hidden;
+}
+.trip_img img:hover{
+  transform: scale(1.1);
+}
